@@ -1,0 +1,18 @@
+{
+    "sourceFile": "backend/requirements.txt",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1765099173981,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1765099173981,
+            "name": "Commit-0",
+            "content": "fastapi\r\nuvicorn\r\npython-dotenv\r\npydantic\r\nrequests\r\nbeautifulsoup4\r\nPyPDF2\r\nfpdf\r\ncrewai\r\nlangchain\r\nlangchain-openai\r\ntiktoken\r\nopenai\r\nzstandard==0.25.0\r\nPillow\r\npdfplumber\r\npdfminer.six\r\n"
+        }
+    ]
+}
