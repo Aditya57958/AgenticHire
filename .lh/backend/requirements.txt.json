@@ -3,11 +3,15 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 1,
             "patches": [
                 {
                     "date": 1765099173981,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1765099955369,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,18 +1,17 @@\n-��f\u0000a\u0000s\u0000t\u0000a\u0000p\u0000i\u0000\r\u0000\n-\u0000u\u0000v\u0000i\u0000c\u0000o\u0000r\u0000n\u0000\r\u0000\n-\u0000p\u0000y\u0000t\u0000h\u0000o\u0000n\u0000-\u0000d\u0000o\u0000t\u0000e\u0000n\u0000v\u0000\r\u0000\n-\u0000p\u0000y\u0000d\u0000a\u0000n\u0000t\u0000i\u0000c\u0000\r\u0000\n-\u0000r\u0000e\u0000q\u0000u\u0000e\u0000s\u0000t\u0000s\u0000\r\u0000\n-\u0000b\u0000e\u0000a\u0000u\u0000t\u0000i\u0000f\u0000u\u0000l\u0000s\u0000o\u0000u\u0000p\u00004\u0000\r\u0000\n-\u0000P\u0000y\u0000P\u0000D\u0000F\u00002\u0000\r\u0000\n-\u0000f\u0000p\u0000d\u0000f\u0000\r\u0000\n-\u0000c\u0000r\u0000e\u0000w\u0000a\u0000i\u0000\r\u0000\n-\u0000l\u0000a\u0000n\u0000g\u0000c\u0000h\u0000a\u0000i\u0000n\u0000\r\u0000\n-\u0000l\u0000a\u0000n\u0000g\u0000c\u0000h\u0000a\u0000i\u0000n\u0000-\u0000o\u0000p\u0000e\u0000n\u0000a\u0000i\u0000\r\u0000\n-\u0000t\u0000i\u0000k\u0000t\u0000o\u0000k\u0000e\u0000n\u0000\r\u0000\n-\u0000o\u0000p\u0000e\u0000n\u0000a\u0000i\u0000\r\u0000\n-\u0000z\u0000s\u0000t\u0000a\u0000n\u0000d\u0000a\u0000r\u0000d\u0000=\u0000=\u00000\u0000.\u00002\u00005\u0000.\u00000\u0000\r\u0000\n-\u0000P\u0000i\u0000l\u0000l\u0000o\u0000w\u0000\r\u0000\n-\u0000p\u0000d\u0000f\u0000p\u0000l\u0000u\u0000m\u0000b\u0000e\u0000r\u0000\r\u0000\n-\u0000p\u0000d\u0000f\u0000m\u0000i\u0000n\u0000e\u0000r\u0000.\u0000s\u0000i\u0000x\u0000\r\u0000\n-\u0000\n\\ No newline at end of file\n+fastapi\r\n+uvicorn\r\n+python-dotenv\r\n+pydantic\r\n+requests\r\n+beautifulsoup4\r\n+PyPDF2\r\n+fpdf\r\n+crewai\r\n+langchain\r\n+langchain-openai\r\n+tiktoken\r\n+openai\r\n+zstandard==0.25.0\r\n+Pillow\r\n+pdfplumber\r\n+pdfminer.six\n\\ No newline at end of file\n"
                 }
             ],
             "date": 1765099173981,

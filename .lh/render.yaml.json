@@ -3,11 +3,19 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 0,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1765099436340,
                     "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1765099995548,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,9 +1,9 @@\n services:\n   - type: web\n     name: agentichire-api\n     env: python\n-    buildCommand: \"pip install -r backend/requirements.txt\"\n+    buildCommand: \"pip install -r requirements.txt\"\n     startCommand: \"uvicorn backend.main:app --host 0.0.0.0 --port $PORT\"\n     rootDir: \"backend\"\n     healthCheckPath: /health\n     envVars:\n"
+                },
+                {
+                    "date": 1765100023428,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -2,9 +2,9 @@\n   - type: web\n     name: agentichire-api\n     env: python\n     buildCommand: \"pip install -r requirements.txt\"\n-    startCommand: \"uvicorn backend.main:app --host 0.0.0.0 --port $PORT\"\n+    startCommand: \"uvicorn main:app --host 0.0.0.0 --port $PORT\"\n     rootDir: \"backend\"\n     healthCheckPath: /health\n     envVars:\n       - key: PYTHON_VERSION\n"
                 }
             ],
             "date": 1765099436340,
